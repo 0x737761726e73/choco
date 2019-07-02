@@ -1,4 +1,4 @@
-# Chocolatey Packages
+# <img src="https://raw.githubusercontent.com/0x737761726e73/choco/master/chocolatey.png" height="48"> Chocolatey Packages
 
 ## What is this?
 This repo contains Chocolatey packages created by me. Learn more about Chocolatey at https://chocolatey.org.
