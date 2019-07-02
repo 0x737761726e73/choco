@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ungoogled-chromium-64</id>
+    <version>67.0.3396.87</version>
+    <packageSourceUrl>https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/windows/64bit/67.0.3396.87-3</packageSourceUrl>
+    <owners>swarns</owners>
+    <title>ungoogled-chromium (64-bit)</title>
+    <authors>Eloston</authors>
+    <projectUrl>https://github.com/Eloston/ungoogled-chromium</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/chromium/chromium/5589f97ebf4645b93260800cf0b31de88bdd316b/chrome/app/theme/chromium/product_logo_64.png</iconUrl>
+    <copyright>2019 The ungoogled-chromium Authors</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/Eloston/ungoogled-chromium/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/Eloston/ungoogled-chromium</projectSourceUrl>
+    <docsUrl>https://github.com/Eloston/ungoogled-chromium/tree/master/docs</docsUrl>
+    <bugTrackerUrl>https://github.com/Eloston/ungoogled-chromium/issues</bugTrackerUrl>
+    <tags>ungoogled-chromium chromium inox iridium privacy control transparency google-chromium</tags>
+    <summary>ungoogled-chromium is Google Chromium, sans dependency on Google web services. It also features some tweaks to enhance privacy, control, and transparency.</summary>
+    <description>ungoogled-chromium is Google Chromium, sans dependency on Google web services. It also features some tweaks to enhance privacy, control, and transparency.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
