@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dissenter-browser</id>
+    <version>0.65.121</version>
+    <packageSourceUrl>https://dissenter.com/download#download</packageSourceUrl>
+    <owners>swarns</owners>
+    <title>Dissenter Browser (64-bit)</title>
+    <authors>Gab AI Inc.</authors>
+    <projectUrl>https://dissenter.com/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/gab-ai-inc/defiant-core/d9509be7d27edc8faee5620b5bb0e20c65f74282/components/dissenter_extension/extension/dissenter_extension/assets/images/logo/icon-48.png</iconUrl>
+    <copyright>2019 Gab AI, Inc.</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/gab-ai-inc/defiant-browser/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/gab-ai-inc/defiant-browser</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/gab-ai-inc/defiant-browser/issues</bugTrackerUrl>
+    <tags>dissenter-browser dissenter open source web browser gab ai</tags>
+    <summary>Dissenter is an open source web browser built for The People, not advertisers.</summary>
+    <description>Dissenter is an open source web browser built for The People, not advertisers.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
