@@ -3,7 +3,7 @@
   <metadata>
     <id>dissenter-browser</id>
     <version>0.65.121</version>
-    <packageSourceUrl>https://dissenter.com/download#download</packageSourceUrl>
+    <packageSourceUrl>https://github.com/0x737761726e73/choco/tree/master/dissenter-browser</packageSourceUrl>
     <owners>swarns</owners>
     <title>Dissenter Browser (64-bit)</title>
     <authors>Gab AI Inc.</authors>
