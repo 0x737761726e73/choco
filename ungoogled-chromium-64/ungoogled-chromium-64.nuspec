@@ -3,7 +3,7 @@
   <metadata>
     <id>ungoogled-chromium-64</id>
     <version>67.0.3396.87</version>
-    <packageSourceUrl>https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/windows/64bit/67.0.3396.87-3</packageSourceUrl>
+    <packageSourceUrl>https://github.com/0x737761726e73/choco/tree/master/ungoogled-chromium-64</packageSourceUrl>
     <owners>swarns</owners>
     <title>ungoogled-chromium (64-bit)</title>
     <authors>Eloston</authors>
