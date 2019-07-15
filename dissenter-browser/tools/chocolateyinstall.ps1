@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64      = 'https://dissenter.com/dist/browser/0.65.121/dissenter-browser-v0.65.121.exe'
+$url64      = 'https://dissenter.com/dist/browser/0.66.99/dissenter-browser-v0.66.99.exe'
  
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -9,7 +9,7 @@ $packageArgs = @{
  
   softwareName  = 'dissenter-browser*'
  
-  checksum64    = '1df97461603321035968045159978303'
+  checksum64    = '1d031b6bbe98d33b6d8487ff8dc981a1'
   checksumType64= 'md5'
  
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
