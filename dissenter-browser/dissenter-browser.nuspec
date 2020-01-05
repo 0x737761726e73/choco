@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dissenter-browser</id>
-    <version>0.66.99</version>
+    <version>0.70.122</version>
     <packageSourceUrl>https://github.com/0x737761726e73/choco/tree/master/dissenter-browser</packageSourceUrl>
     <owners>swarns</owners>
     <title>Dissenter Browser (64-bit)</title>
@@ -16,7 +16,20 @@
     <bugTrackerUrl>https://github.com/gab-ai-inc/defiant-browser/issues</bugTrackerUrl>
     <tags>dissenter-browser dissenter open source web browser gab ai</tags>
     <summary>Dissenter is an open source web browser built for The People, not advertisers.</summary>
-    <description>Dissenter is an open source web browser built for The People, not advertisers.</description>
+    <description>
+Dissenter is an open source web browser built for The People, not advertisers.  
+This package uses the default installation path of the setup file.  
+
+**Important!** If upgrading from a version before 69.132, do this to save your bookmarks and settings from previous versions:
+
+- Open File Explorer
+- Navigate to your user directory (`C:\Users\username`)
+- The AppData folder may be hidden... You can enable it in the settings, or click in the address bar above the folder and type it in... `C:\Users\username\AppData`
+- Go into the Local folder and then into the GabAI folder inside
+- Rename the folder inside from Dissenter to Dissenter-Browser
+
+This was a one-time event, because of a significant re-write of the browser process which un-intentionally changed the folder.
+    </description>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
